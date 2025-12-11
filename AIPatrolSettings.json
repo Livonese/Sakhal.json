@@ -1,0 +1,405 @@
+{
+    "m_Version": 27,
+    "Enabled": 1,
+    "FormationScale": -1.0,
+    "DespawnTime": 60.0,
+    "RespawnTime": 3600.0,
+    "MinDistRadius": 400.0,
+    "MaxDistRadius": 1000.0,
+    "DespawnRadius": 1100.0,
+    "AccuracyMin": -1.0,
+    "AccuracyMax": -1.0,
+    "ThreatDistanceLimit": -1.0,
+    "NoiseInvestigationDistanceLimit": -1.0,
+    "DamageMultiplier": -1.0,
+    "DamageReceivedMultiplier": -1.0,
+    "LoadBalancingCategories": {
+        "Example": [
+            {
+                "MinPlayers": 0,
+                "MaxPlayers": 255,
+                "MaxPatrols": -15
+            }
+        ],
+        "Quest": [
+            {
+                "MinPlayers": 0,
+                "MaxPlayers": 255,
+                "MaxPatrols": -15
+            }
+        ],
+        "ObjectPatrol": [
+            {
+                "MinPlayers": 0,
+                "MaxPlayers": 255,
+                "MaxPatrols": -15
+            }
+        ],
+        "Global": [
+            {
+                "MinPlayers": 0,
+                "MaxPlayers": 10,
+                "MaxPatrols": -15
+            },
+            {
+                "MinPlayers": 11,
+                "MaxPlayers": 20,
+                "MaxPatrols": -15
+            },
+            {
+                "MinPlayers": 21,
+                "MaxPlayers": 30,
+                "MaxPatrols": -15
+            },
+            {
+                "MinPlayers": 31,
+                "MaxPlayers": 40,
+                "MaxPatrols": -15
+            },
+            {
+                "MinPlayers": 41,
+                "MaxPlayers": 50,
+                "MaxPatrols": -15
+            },
+            {
+                "MinPlayers": 51,
+                "MaxPlayers": 255,
+                "MaxPatrols": -15
+            }
+        ],
+        "HelicopterWreck": [
+            {
+                "MinPlayers": 0,
+                "MaxPlayers": 255,
+                "MaxPatrols": -15
+            }
+        ],
+        "ContaminatedArea": [
+            {
+                "MinPlayers": 0,
+                "MaxPlayers": 255,
+                "MaxPatrols": -15
+            }
+        ],
+        "Patrol": [
+            {
+                "MinPlayers": 0,
+                "MaxPlayers": 255,
+                "MaxPatrols": -15
+            }
+        ]
+    },
+    "Patrols": [
+        {
+            "Name": "",
+            "Persist": 0,
+            "Faction": "West",
+            "Formation": "",
+            "FormationScale": 8.0,
+            "FormationLooseness": 0.0,
+            "Loadout": "Bduheli",
+            "Units": [],
+            "NumberOfAI": 2,
+            "Behaviour": "ALTERNATE",
+            "LootingBehaviour": "",
+            "Speed": "JOG",
+            "UnderThreatSpeed": "JOG",
+            "CanBeLooted": 1,
+            "LootDropOnDeath": "",
+            "UnlimitedReload": 1,
+            "SniperProneDistanceThreshold": 1000.0,
+            "AccuracyMin": 0.37000001311302187,
+            "AccuracyMax": 0.3900000047683716,
+            "ThreatDistanceLimit": -1.0,
+            "NoiseInvestigationDistanceLimit": -1.0,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": -1.0,
+            "HeadshotResistance": 0.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": -1.0,
+            "MaxDistRadius": -1.0,
+            "DespawnRadius": -1.0,
+            "MinSpreadRadius": 5.0,
+            "MaxSpreadRadius": 20.0,
+            "Chance": 1.0,
+            "DespawnTime": -1.0,
+            "RespawnTime": -2.0,
+            "LoadBalancingCategory": "",
+            "ObjectClassName": "Wreck_UH1Y",
+            "WaypointInterpolation": "",
+            "UseRandomWaypointAsStartPoint": 0,
+            "Waypoints": []
+        },
+        {
+            "Name": "",
+            "Persist": 0,
+            "Faction": "West",
+            "Formation": "",
+            "FormationScale": 0.0,
+            "FormationLooseness": 0.0,
+            "Loadout": "A_Param_556",
+            "Units": [],
+            "NumberOfAI": 1,
+            "Behaviour": "ALTERNATE",
+            "LootingBehaviour": "",
+            "Speed": "JOG",
+            "UnderThreatSpeed": "JOG",
+            "CanBeLooted": 1,
+            "LootDropOnDeath": "",
+            "UnlimitedReload": 1,
+            "SniperProneDistanceThreshold": 1000.0,
+            "AccuracyMin": 0.35000001311302187,
+            "AccuracyMax": 0.3700000047683716,
+            "ThreatDistanceLimit": -1.0,
+            "NoiseInvestigationDistanceLimit": -1.0,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": -1.0,
+            "HeadshotResistance": 0.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": -1.0,
+            "MaxDistRadius": -1.0,
+            "DespawnRadius": -1.0,
+            "MinSpreadRadius": 5.0,
+            "MaxSpreadRadius": 20.0,
+            "Chance": 1.0,
+            "DespawnTime": -1.0,
+            "RespawnTime": -2.0,
+            "LoadBalancingCategory": "",
+            "ObjectClassName": "ExpansionAirdropContainer",
+            "WaypointInterpolation": "",
+            "UseRandomWaypointAsStartPoint": 0,
+            "Waypoints": []
+        },
+        {
+            "Name": "",
+            "Persist": 0,
+            "Faction": "West",
+            "Formation": "",
+            "FormationScale": 0.0,
+            "FormationLooseness": 0.0,
+            "Loadout": "A_Param_556",
+            "Units": [],
+            "NumberOfAI": 1,
+            "Behaviour": "ALTERNATE",
+            "LootingBehaviour": "",
+            "Speed": "JOG",
+            "UnderThreatSpeed": "JOG",
+            "CanBeLooted": 1,
+            "LootDropOnDeath": "",
+            "UnlimitedReload": 1,
+            "SniperProneDistanceThreshold": 1000.0,
+            "AccuracyMin": 0.35000001311302187,
+            "AccuracyMax": 0.3700000047683716,
+            "ThreatDistanceLimit": -1.0,
+            "NoiseInvestigationDistanceLimit": -1.0,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": -1.0,
+            "HeadshotResistance": 0.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": -1.0,
+            "MaxDistRadius": -1.0,
+            "DespawnRadius": -1.0,
+            "MinSpreadRadius": 5.0,
+            "MaxSpreadRadius": 20.0,
+            "Chance": 1.0,
+            "DespawnTime": -1.0,
+            "RespawnTime": -2.0,
+            "LoadBalancingCategory": "",
+            "ObjectClassName": "ExpansionAirdropContainer_Military",
+            "WaypointInterpolation": "",
+            "UseRandomWaypointAsStartPoint": 0,
+            "Waypoints": []
+        },
+        {
+            "Name": "",
+            "Persist": 0,
+            "Faction": "East",
+            "Formation": "",
+            "FormationScale": 0.0,
+            "FormationLooseness": 0.0,
+            "Loadout": "A_Param_556",
+            "Units": [],
+            "NumberOfAI": 1,
+            "Behaviour": "ALTERNATE",
+            "LootingBehaviour": "",
+            "Speed": "JOG",
+            "UnderThreatSpeed": "JOG",
+            "CanBeLooted": 1,
+            "LootDropOnDeath": "",
+            "UnlimitedReload": 1,
+            "SniperProneDistanceThreshold": 1000.0,
+            "AccuracyMin": 0.35000001311302187,
+            "AccuracyMax": 0.3700000047683716,
+            "ThreatDistanceLimit": -1.0,
+            "NoiseInvestigationDistanceLimit": -1.0,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": -1.0,
+            "HeadshotResistance": 0.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": -1.0,
+            "MaxDistRadius": -1.0,
+            "DespawnRadius": -1.0,
+            "MinSpreadRadius": 5.0,
+            "MaxSpreadRadius": 20.0,
+            "Chance": 1.0,
+            "DespawnTime": -1.0,
+            "RespawnTime": -2.0,
+            "LoadBalancingCategory": "",
+            "ObjectClassName": "ExpansionAirdropContainer_Basebuilding",
+            "WaypointInterpolation": "",
+            "UseRandomWaypointAsStartPoint": 0,
+            "Waypoints": []
+        },
+        {
+            "Name": "",
+            "Persist": 0,
+            "Faction": "East",
+            "Formation": "",
+            "FormationScale": 8.0,
+            "FormationLooseness": 0.5,
+            "Loadout": "A_Civ_Servero",
+            "Units": [],
+            "NumberOfAI": -2,
+            "Behaviour": "ALTERNATE",
+            "LootingBehaviour": "",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "JOG",
+            "CanBeLooted": 1,
+            "LootDropOnDeath": "",
+            "UnlimitedReload": 1,
+            "SniperProneDistanceThreshold": 1000.0,
+            "AccuracyMin": 0.32000001311302187,
+            "AccuracyMax": 0.3500000047683716,
+            "ThreatDistanceLimit": -1.0,
+            "NoiseInvestigationDistanceLimit": -1.0,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": -1.0,
+            "HeadshotResistance": 0.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": 500.0,
+            "MaxDistRadius": 1000.0,
+            "DespawnRadius": 1200.0,
+            "MinSpreadRadius": 1.0,
+            "MaxSpreadRadius": 100.0,
+            "Chance": 1.0,
+            "DespawnTime": -1.0,
+            "RespawnTime": 3600.0,
+            "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+					9045.08,
+					52.5,
+					10849.4
+				],
+                [
+					9025.22,
+					41.1346,
+					10649.8
+				],
+                [
+					8958.69,
+					31.5429,
+					10456.5
+				],
+                [
+					8879,
+					24.9874,
+					10342.9
+				],
+                [
+					8807.6,
+					17.9831,
+					10227.4
+				],
+                [
+					9004.58,
+					22.5011,
+					10174.6
+				],
+                [
+					9195.39,
+					26.446,
+					10105
+				],
+                [
+					9335.1,
+					30.1542,
+					9986.12
+				],
+                [
+					9535,
+					40.6155,
+					9967.83
+				],
+                [
+					9778.9,
+					51.1204,
+					9894.99
+				],
+                [
+					9762.84,
+					54.2283,
+					9962.88
+				],
+                [
+					9663.46,
+					48.414,
+					9934.46
+				],
+                [
+					9460.22,
+					42.9148,
+					9933.32
+				],
+                [
+					9286.94,
+					50.682,
+					9841.35
+				],
+                [
+					9101.07,
+					40.8532,
+					9918.22
+				],
+                [
+					8947.25,
+					35.8698,
+					9985.25
+				],
+                [
+					9074.65,
+					31.8291,
+					10016.3
+				],
+                [
+					9135.88,
+					25.8847,
+					10123.7
+				],
+                [
+					8948.59,
+					20.673,
+					10192.9
+				],
+                [
+					8907.09,
+					27.1056,
+					10383.8
+				],
+                [
+					8999.48,
+					37.5788,
+					10560
+				],
+                [
+					9041.66,
+					45.7797,
+					10759.3
+				]
+            ]
+        }
+    ]
+}
